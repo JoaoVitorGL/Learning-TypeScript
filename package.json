@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "datas": "npx tsc && node dist/basics/datas.js",
+    "funcoes": "npx tsc && node dist/basics/funcoes.js",
+    "interfaces": "npx tsc && node dist/basics/interfaces.js",
+    "classes": "npx tsc && node dist/basics/classes.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
