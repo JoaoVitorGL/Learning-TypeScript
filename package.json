@@ -3,9 +3,13 @@
     "datas": "npx tsc && node dist/basics/datas.js",
     "funcoes": "npx tsc && node dist/basics/funcoes.js",
     "interfaces": "npx tsc && node dist/basics/interfaces.js",
-    "classes": "npx tsc && node dist/basics/classes.js"
+    "classes": "npx tsc && node dist/basics/classes.js",
+    "generics": "npx tsc && node dist/basics/generics.js",
+    "generics:dev": "ts-node-dev --respawn --transpile-only src/basics/generics",
+    "decorators": "ts-node-dev --respawn --transpile-only src/basics/decorators"
   },
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
   }
 }
